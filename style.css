@@ -7,7 +7,7 @@
     --coding-green: #00FF00;
 }
 
-#first-css-header {
+/* #first-css-header {
     position: absolute;
     top: 10%;
     height: 386px;
@@ -28,7 +28,7 @@ a {
     position: absolute;
     display: block;
     height: auto;
-}
+} */
 
 .btn {
     background-color: DodgerBlue;
@@ -43,3 +43,19 @@ a {
   .btn:hover {
     background-color: RoyalBlue;
   }
+
+#second-css-header {
+    position: absolute;
+    height: 386px;
+    width: 1584px;
+    background: var(--lightGray);
+}
+
+#clemson {
+    position: absolute;
+    left: 1%;
+    font-family: paw-hammer;
+    font-weight: bold;
+    line-height: 14px;
+    color: var(--orange);
+}

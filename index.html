@@ -13,28 +13,27 @@
 
     <h1 id = "title">CSS Headers</h1>
 
-    <div id = "first-css-header" class="first-css-header-class">
-        <p> def unpack_pkt(self, packet): <br></br>
-                &emsp; if (self.is_corrupt(packet) == False):<br></br>
-                    &emsp; &emsp; if (packet[1] == 0x1): # ack <br><br>
-                        &emsp; &emsp; &emsp; packet1 = unpack("!HIH", packet)<br><br>
-                        &emsp; &emsp; &emsp; packet_ack = {'packet_type': packet1[0], 'seq_num': packet1[1], 'checksum': packet1[2]}<br><br>
-                        &emsp; &emsp; &emsp; return packet_ack<br><br>
-                    &emsp; &emsp; else: <br><br>
-                        &emsp; &emsp; &emsp; size = self.get_payload_size(packet) # data <br><br>
-                        &emsp; &emsp; &emsp; packet = unpack("!HIHI" + str(size) + "s", packet) <br><br>
-                        &emsp; &emsp; &emsp; packet_data = {'packet_type': packet[0], 'seq_num': packet[1], 'checksum': packet[2], 'payload_length': packet[3], 'payload': packet[4].decode()} <br><br>
-                        &emsp; &emsp; &emsp; return packet_data <br><br>
-                &emsp; else: <br><br>
-                    &emsp; &emsp;pass
-        </p>
-    </div>
+    <p>I've always struggled to find headers that really represented me, what I was interested in, and was professional. Finding one that I connected with for Linkdin became a chore instead of something expressive. This is my attempt at making this something fun instead of a chore. If you like any of them, feel free to download it and use on your Linkdin as well.</p>
 
-    <div id = "first-css-header-download-button">
-        <a href="#" download="https://css-header.s3.amazonaws.com/css-header-upack_pkt().jpg"> Download Image </a>
-        <!-- Auto width -->
-        <button class="btn"><i class="fa fa-download"></i> Download</button>        
-    </div>
+    <table>
+        <tr>
+            <td>
+                <div id = "first-css-header" class="first-css-header-class">
+                        <img src="headers\css-header-upack_pkt().jpg" width="1200px" height="330px"/>
+                </div>
+
+                <div id = "first-css-header-download-button">
+                    <!-- Auto width -->
+                    <a href="headers\css-header-upack_pkt().jpg" download>
+                        <button class="btn"><i class="fa fa-download"></i> Download</button>
+                    </a>     
+                </div>
+                <div id = "second-css-header" class="second-css-header-class">
+                    <p id = "clemson">CLEMSON</p>
+                </div>
+            </td>
+        </tr>
+    </table>
 
 </body>
 </html>
