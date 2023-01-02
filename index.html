@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+        <head>
+          <meta charset="UTF-8"/>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>CSS Headers</title>
+          <link rel="stylesheet" href="style.css">
+          <!-- Add icon library -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        </head>
+<body>
+
+    <h1 id = "title">CSS Headers</h1>
+
+    <div id = "first-css-header" class="first-css-header-class">
+        <p> def unpack_pkt(self, packet): <br></br>
+                &emsp; if (self.is_corrupt(packet) == False):<br></br>
+                    &emsp; &emsp; if (packet[1] == 0x1): # ack <br><br>
+                        &emsp; &emsp; &emsp; packet1 = unpack("!HIH", packet)<br><br>
+                        &emsp; &emsp; &emsp; packet_ack = {'packet_type': packet1[0], 'seq_num': packet1[1], 'checksum': packet1[2]}<br><br>
+                        &emsp; &emsp; &emsp; return packet_ack<br><br>
+                    &emsp; &emsp; else: <br><br>
+                        &emsp; &emsp; &emsp; size = self.get_payload_size(packet) # data <br><br>
+                        &emsp; &emsp; &emsp; packet = unpack("!HIHI" + str(size) + "s", packet) <br><br>
+                        &emsp; &emsp; &emsp; packet_data = {'packet_type': packet[0], 'seq_num': packet[1], 'checksum': packet[2], 'payload_length': packet[3], 'payload': packet[4].decode()} <br><br>
+                        &emsp; &emsp; &emsp; return packet_data <br><br>
+                &emsp; else: <br><br>
+                    &emsp; &emsp;pass
+        </p>
+    </div>
+
+    <div id = "first-css-header-download-button">
+        <a href="#" download="https://css-header.s3.amazonaws.com/css-header-upack_pkt().jpg"> Download Image </a>
+        <!-- Auto width -->
+        <button class="btn"><i class="fa fa-download"></i> Download</button>        
+    </div>
+
+</body>
+</html>

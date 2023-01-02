@@ -1,0 +1,45 @@
+:root {
+    --darkGray: #121212;
+    --deepPurple: #673AB7;
+    --lightGray: #e5e7ea;
+    --orange: #f79b19;
+    --black: #000000;
+    --coding-green: #00FF00;
+}
+
+#first-css-header {
+    position: absolute;
+    top: 10%;
+    height: 386px;
+    width: 1584px;
+    background: var(--black);
+}
+
+p {
+    position: absolute;
+    left: 1%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    line-height: 14px;
+    color: var(--coding-green);
+}
+
+a {
+    position: absolute;
+    display: block;
+    height: auto;
+}
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
