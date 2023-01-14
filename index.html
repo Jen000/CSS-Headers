@@ -6,6 +6,7 @@
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
           <title>CSS Headers</title>
           <link rel="stylesheet" href="style.css">
+          <link rel="stylesheet" href="fonts.css">
           <!-- Add icon library -->
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         </head>
@@ -13,13 +14,13 @@
 
     <h1 id = "title">CSS Headers</h1>
 
-    <p>I've always struggled to find headers that really represented me, what I was interested in, and was professional. Finding one that I connected with for Linkdin became a chore instead of something expressive. This is my attempt at making this something fun instead of a chore. If you like any of them, feel free to download it and use on your Linkdin as well.</p>
+    <!-- <p>I've always struggled to find headers that really represented me, what I was interested in, and was professional. Finding one that I connected with for Linkdin became a chore instead of something expressive. This is my attempt at making this something fun instead of a chore. If you like any of them, feel free to download it and use on your Linkdin as well.</p> -->
 
     <table>
         <tr>
             <td>
                 <div id = "first-css-header" class="first-css-header-class">
-                        <img src="headers\css-header-upack_pkt().jpg" width="1200px" height="330px"/>
+                        <img src="headers\css-header-upack_pkt().jpg" width="1584px" height="386px"/>
                 </div>
 
                 <div id = "first-css-header-download-button">
@@ -28,12 +29,29 @@
                         <button class="btn"><i class="fa fa-download"></i> Download</button>
                     </a>     
                 </div>
+                <br></br>
+                <form id = "second-css-header-form">
+                    <label><b>Enter Your Major:</b></label>
+                    <input type="text" name="major" id="user_input" placeholder = "Business">
+                  </form>
+
                 <div id = "second-css-header" class="second-css-header-class">
-                    <p id = "clemson">CLEMSON</p>
+                    <p id = "clemson">CLEMSON UNIVERSITY</p>
+                    <img id = "clemson-logo" src="scaled-headers\Paw_Spot__Coated__Orange_transparent.png" width="400px" height="400px"/>
+                    <div id = "major">Your Major Here</div>
                 </div>
+
+                <!-- Need to figure out how to convert html into an image and then download -->
+                <!-- <div id = "second-css-header-download-button">
+                    Auto width
+                    <a href="headers\css-header-upack_pkt().jpg" download>
+                        <button class="btn"><i class="fa fa-download"></i> Download</button>
+                    </a>     
+                </div> -->
             </td>
         </tr>
     </table>
 
+    <script src="script.js"></script>
 </body>
 </html>

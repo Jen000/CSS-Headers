@@ -5,6 +5,11 @@
     --orange: #f79b19;
     --black: #000000;
     --coding-green: #00FF00;
+    --clemson-orange: #F56600;
+    --clemson-purple: #522D80;
+    --clemson-diploma: #2E1A47
+    --reflection: #C8C9C7;
+    --innovation: #888B8D;
 }
 
 /* #first-css-header {
@@ -48,14 +53,39 @@ a {
     position: absolute;
     height: 386px;
     width: 1584px;
-    background: var(--lightGray);
+    background: var(--innovation);
+    border-color: #000000;
+}
+
+#second-css-header-form {
+    font-size: large;
+}
+
+#user_input {
+    font-size: medium;
 }
 
 #clemson {
     position: absolute;
-    left: 1%;
+    left: 5%;
     font-family: paw-hammer;
-    font-weight: bold;
-    line-height: 14px;
-    color: var(--orange);
+    line-height: 0;
+    font-size: 100px;
+    color: white;
+}
+
+#major {
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    font-family: paw-hammer;
+    overflow-wrap: break-word;
+    font-size: 70px;
+    color: var(--clemson-purple);
+    text-shadow: white 1px 0 10px;
+}
+
+#clemson-logo {
+    position: absolute;
+    left: 75%;
 }
