@@ -52,7 +52,7 @@ a {
   }
 
 #second-css-header {
-    /* position: absolute; */
+    position: absolute;
     height: 386px;
     width: 1584px;
     background: var(--innovation);
@@ -70,6 +70,7 @@ a {
 #clemson {
     position: absolute;
     left: 5%;
+    top: auto;
     font-family: paw-hammer;
     line-height: 0;
     font-size: 100px;
@@ -89,11 +90,12 @@ a {
 
 #clemson-logo {
     position: absolute;
+    top: auto;
     left: 75%;
 }
 
 #second-button {
-    position: absolute;
+    position: relative;
     display: block;
     height: auto;
 }
