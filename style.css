@@ -35,6 +35,8 @@ a {
     height: auto;
 } */
 
+
+
 .btn {
     background-color: DodgerBlue;
     border: none;
@@ -50,7 +52,7 @@ a {
   }
 
 #second-css-header {
-    position: absolute;
+    /* position: absolute; */
     height: 386px;
     width: 1584px;
     background: var(--innovation);
@@ -88,4 +90,10 @@ a {
 #clemson-logo {
     position: absolute;
     left: 75%;
+}
+
+#second-button {
+    position: absolute;
+    display: block;
+    height: auto;
 }
